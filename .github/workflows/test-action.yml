@@ -16,7 +16,7 @@ jobs:
                 url: 'https://reqres.in/api/users'
                 method: 'POST'
                 accept: 200
-                data: { "name": "breeze",  "job": "devops" }
+                data: '{ "name": "breeze",  "job": "devops" }'
                 is_debug: true
                 
                 
