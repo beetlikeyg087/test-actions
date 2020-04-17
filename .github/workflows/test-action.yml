@@ -15,7 +15,7 @@ jobs:
               with:
                 url: 'https://reqres.in/api/users/2'
                 method: 'GET'
-                accept: 500
+                accept: 200
                 headers: '{ "Authorization": "test" }'
                 
                 
