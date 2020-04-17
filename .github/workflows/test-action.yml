@@ -1,0 +1,16 @@
+name: Test action
+
+on:
+  push:
+    branches: [ master ]
+jobs:
+    test-action:
+        name: 'Test action'
+        runs-on: ubuntu-latest
+        steps:
+            - name: 'Test curl action'
+              uses: beetlikeyg087/curl@master
+              with:
+                url: 'https://www.google.com'
+                method: 'GET'
+  
