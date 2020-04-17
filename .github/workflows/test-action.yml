@@ -15,10 +15,10 @@ jobs:
               with:
                 accept: 201
                 is_debug: true
-                url: "https://reqres.in/api/users"
-                method: 'POST'
-                body: '{ "name": "breeze2222dssd",  "job": "devops" }'
-                #custom-config: .github/workflows/curl-config.json
+                # url: "https://reqres.in/api/users"
+                # method: 'POST'
+                # body: '{ "name": "breeze2222dssd",  "job": "devops" }'
+                custom-config: .github/workflows/curl-config.json
                 
                 
                 
