@@ -17,7 +17,7 @@ jobs:
                 method: 'GET'
                 accept: 200
                 headers: '{ "Authorization": "test" }'
-                proxy-url: https://132.255.34.24:31568
+                proxy-url: 85.10.219.98:1080
                 timeout: 10000
                 
                 
