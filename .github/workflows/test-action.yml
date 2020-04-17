@@ -15,4 +15,5 @@ jobs:
               with:
                 url: 'https://reqres.in/api/users/2'
                 method: 'GET'
+                accept: 500
   
