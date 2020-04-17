@@ -11,7 +11,7 @@ jobs:
             - name: 'Checkout'
               uses: actions/checkout@v2
             - name: 'Test curl actiosn'
-              uses: beetlikeyg087/curl@master
+              uses: beetlikeyg087/curl@v1
               with:
                 accept: 201
                 is_debug: true
