@@ -17,7 +17,7 @@ jobs:
                 method: 'GET'
                 accept: 200
                 headers: '{ "Authorization": "test" }'
-                proxy-url: 'test.com:6666'
+                proxy-url: http://hk-agcprx-2000.corpdmz.agoda.local:8080
                 
                 
                 
