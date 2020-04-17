@@ -5,7 +5,7 @@ on:
     branches: [ master ]
 jobs:
     test-action:
-        name: 'Test action'
+        name: 'Test actions'
         runs-on: ubuntu-latest
         steps:
             - name: 'Checkout'
