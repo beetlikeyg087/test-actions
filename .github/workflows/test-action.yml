@@ -13,6 +13,6 @@ jobs:
             - name: 'Test curl action'
               uses: beetlikeyg087/curl@master
               with:
-                url: 'https://www.google.com'
+                url: 'https://reqres.in/api/users/2'
                 method: 'GET'
   
