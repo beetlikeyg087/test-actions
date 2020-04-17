@@ -17,6 +17,7 @@ jobs:
                 method: 'POST'
                 accept: 200
                 data: { "name": "breeze",  "job": "devops" }
+                is_debug: true
                 
                 
                 
