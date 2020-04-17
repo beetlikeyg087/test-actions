@@ -18,6 +18,7 @@ jobs:
                 accept: 200
                 headers: '{ "Authorization": "test" }'
                 proxy-url: 165.227.30.175:3128
+                timeout: 10000
                 
                 
                 
