@@ -10,7 +10,7 @@ jobs:
         steps:
             - name: 'Checkout'
               uses: actions/checkout@master
-            - name: 'Test curl action'
+            - name: 'Test curl actiosn'
               uses: beetlikeyg087/curl@master
               with:
                 url: 'https://reqres.in/api/users'
