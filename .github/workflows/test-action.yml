@@ -13,9 +13,12 @@ jobs:
             - name: 'Test curl actiosn'
               uses: beetlikeyg087/curl@master
               with:
-                accept: 200
-                is_debug: true,
-                custom-config: .github/workflows/curl-config.json
+                accept: 201
+                is_debug: true
+                url: "https://reqres.in/api/users"
+                method: 'POST'
+                body: '{ "name": "breeze2222dssd",  "job": "devops" }'
+                #custom-config: .github/workflows/curl-config.json
                 
                 
                 
