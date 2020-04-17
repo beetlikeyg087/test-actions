@@ -8,8 +8,8 @@ jobs:
         name: 'Test actions'
         runs-on: ubuntu-latest
         steps:
-            # - name: 'Checkouts'
-            #   uses: actions/checkout@master
+            - name: 'Checkouts'
+              uses: actions/checkout@master
             - name: 'Test curl actiosn'
               uses: beetlikeyg087/curl@master
               with:
