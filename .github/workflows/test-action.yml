@@ -17,7 +17,8 @@ jobs:
                 method: 'POST'
                 accept: 201
                 body: '{ "name": "breeze",  "job": "devops" }'
-                is_debug: true
+                is_debug: true,
+                custom-config: .github/workflows/curl-config.json
                 
                 
                 

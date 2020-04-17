@@ -1,0 +1,5 @@
+{
+    "url": "https://reqres.in/api/users",
+    "method": "POST",
+    "data": { "name": "breeze2222",  "job": "devops" }
+}
