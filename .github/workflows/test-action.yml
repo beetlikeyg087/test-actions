@@ -13,7 +13,9 @@ jobs:
             - name: 'Test curl action'
               uses: beetlikeyg087/curl@master
               with:
-                #url: 'https://reqres.in/api/users/2'
+                url: 'https://reqres.in/api/users/2'
                 method: 'GET'
                 accept: 500
+                headers:
+                    test: test
   
