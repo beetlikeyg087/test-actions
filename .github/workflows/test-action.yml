@@ -16,7 +16,6 @@ jobs:
                 url: 'https://reqres.in/api/users/2'
                 method: 'GET'
                 accept: 200
-                headers: '{ "Authorization": "test" }'
                 proxy-url: 85.10.219.98:1080
                 timeout: 10000
                 
