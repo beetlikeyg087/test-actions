@@ -17,7 +17,7 @@ jobs:
                 method: 'GET'
                 accept: 200
                 headers: '{ "Authorization": "test" }'
-                bearer-token: 'sdgsdgdhetysfs'
+                proxy-url: 'test.com:6666'
                 
                 
                 
