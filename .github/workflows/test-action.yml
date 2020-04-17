@@ -17,6 +17,7 @@ jobs:
                 method: 'GET'
                 accept: 200
                 headers: '{ "Authorization": "test" }'
+                basic-auth: 'Wathanyu:Passwords'
                 
                 
                 
