@@ -15,7 +15,7 @@ jobs:
               with:
                 accept: 201
                 is_debug: true,
-                custom-config: .github/workflows/curl-config.txt
+                custom-config: .github/workflows/curl-config.json
                 
                 
                 
