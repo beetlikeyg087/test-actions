@@ -13,7 +13,7 @@ jobs:
             - name: 'Test curl actiosn'
               uses: beetlikeyg087/curl@master
               with:
-                accept: 201
+                accept: 200
                 is_debug: true,
                 custom-config: .github/workflows/curl-config.json
                 
