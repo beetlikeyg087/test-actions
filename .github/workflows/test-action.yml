@@ -70,7 +70,15 @@ jobs:
               uses: beetlikeyg087/json-query@master
               id: get_id
               with:
-                json: ${{ steps.api.outputs.response }}
+                json: |
+                    {
+                        "headers": { 
+                            "language": "en" 
+                        },
+                        "data": { 
+                            "id": "105" 
+                        }
+                    }
                 query: 'data.id'
             - name: 'Echo id'
               run: echo ${{ steps.get_id.outputs.output }}
