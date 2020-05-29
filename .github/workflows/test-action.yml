@@ -1,6 +1,6 @@
 name: Example of CURL action
 
-on: [ pull_request.edited ]
+on: push 
 jobs:
     test-curl-action:
         name: 'Perform REST API'
