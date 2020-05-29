@@ -61,7 +61,7 @@ jobs:
                 # If it is set to true, it will show the response log in the Github UI
                 # Default: false
                 is_debug: true
-                retry: 10/10
+                retry: 2/5
 
                 # If you want to use axios config directly, you can pass config file to the action
                 # The file is just basically a json file that has the same format as axios config https://github.com/axios/axios#request-config
