@@ -15,7 +15,7 @@ jobs:
                 # The target URL
                 # Required: true if custom-config is not set
                 # url: https://reqres.in/api/userss
-                url: http://localhost:5000
+                url: http://somethingnotext.com
                 
                 # The request method, basically it's one of GET|POST|PUT|PATCH
                 # Default is GET 
