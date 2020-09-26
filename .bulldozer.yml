@@ -1,8 +1,6 @@
 version: 1
 
 merge:
-  trigger:
-    branches: ["test-naja"]
   method: squash
   options:
     squash:
