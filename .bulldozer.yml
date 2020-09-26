@@ -1,0 +1,8 @@
+version: 1
+
+merge:
+  method: squash
+  options:
+    squash:
+      body: summarize_commits
+  delete_after_merge: true
